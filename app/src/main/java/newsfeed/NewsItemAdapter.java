@@ -1,4 +1,4 @@
-package com.example.android.newsapp;
+package newsfeed;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,9 +7,13 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
+import com.example.android.newsapp.R;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
+
+import newsfeed.NewsItem;
 
 /**
  * Created by user on 8/16/2016.

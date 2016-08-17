@@ -22,6 +22,8 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
+import newsfeed.NewsItem;
+
 /**
  * Created by user on 8/16/2016.
  */
@@ -38,6 +40,7 @@ public final class QueryUtils {
      * directly from the class name QueryUtils (and an object instance of QueryUtils is not needed).
      */
     private QueryUtils() {
+        throw new AssertionError();
     }
 
     /**

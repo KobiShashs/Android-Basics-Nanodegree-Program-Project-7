@@ -1,4 +1,4 @@
-package com.example.android.newsapp;
+package newsfeed;
 
 import android.content.Context;
 import android.content.Intent;
@@ -16,6 +16,8 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.example.android.newsapp.R;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,7 +26,7 @@ import java.util.List;
  */
 public class NewsFeedFragment extends Fragment implements LoaderManager.LoaderCallbacks<List<NewsItem>> {
 
-    View rootView;
+    private View rootView;
     private static final String LOG_TAG = NewsFeedFragment.class.getName();
 
     /**

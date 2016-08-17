@@ -1,4 +1,4 @@
-package com.example.android.newsapp;
+package newsfeed;
 
 /**
  * Created by user on 8/16/2016.
